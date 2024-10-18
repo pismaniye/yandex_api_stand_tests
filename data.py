@@ -14,3 +14,5 @@ user_body = {
 product_ids = {
     "ids": [1, 2, 3]
 }
+
+#{'authToken': 'bdd0b10b-bac6-4ac6-b116-30e3c9f8d9fd'}

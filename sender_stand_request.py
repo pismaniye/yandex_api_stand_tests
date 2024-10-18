@@ -41,11 +41,12 @@ def post_new_user(body):
                          headers=data.headers)
 
 # Вызов функции post_new_user с телом запроса для создания нового пользователя из модуля data
-# response = post_new_user(data.user_body)
+response = post_new_user(data.user_body)
 
 # Вывод HTTP-статус кода ответа на запрос
 # Код состояния указывает на результат обработки запроса сервером
-# print(response.status_code)
+print(response.status_code)
+print(response.json())
 
 # Функция response.json() позволяет получить тело ответа в формате JSON.
 # Это полезно для извлечения данных, полученных в результате запроса,
